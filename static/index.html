@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Dh73 Finance | Seu painel financeiro</title><link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/extras.css"></head>
+<body>
+<main class="layout">
+  <section class="hero">
+    <a class="brand" href="/" aria-label="Dh73 Finance, início"><span class="mark">D<span>H</span></span><span>Dh73<small>FINANCE</small></span></a>
+    <div class="intro"><p class="eyebrow"><span></span> SEU PAINEL FINANCEIRO</p><h1>Clareza para<br>cuidar do <em>seu dinheiro.</em></h1><p>Organize receitas e despesas em um só lugar. Uma experiência simples para transformar números em decisões.</p><div class="disclaimer">✦ &nbsp; PROTÓTIPO · DADOS FICTÍCIOS</div></div>
+    <footer>Criado por Douglas Honório <span>·</span> Projeto de portfólio</footer>
+  </section>
+  <section class="panel" aria-label="Painel financeiro">
+    <div class="panel-heading"><div><p class="eyebrow blue">VISÃO GERAL</p><h2>Seu controle começa aqui.</h2><p>Registre uma movimentação e acompanhe seu saldo.</p></div><span class="panel-icon">↗</span></div>
+    <div class="balance"><span>Saldo atual</span><strong id="saldo">R$ 0,00</strong><small>Receitas menos despesas</small></div>
+    <div class="totals"><div><span>Receitas</span><strong id="receitas">R$ 0,00</strong></div><div><span>Despesas</span><strong id="despesas">R$ 0,00</strong></div></div>
+    <form id="form"><h3>Nova movimentação</h3><div class="fields"><label>Descrição<input name="descricao" maxlength="150" placeholder="Ex.: Compra de um livro" required></label><div class="row"><label>Tipo<select name="tipo"><option value="receita">Receita</option><option value="despesa">Despesa</option></select></label><label>Valor (R$)<input name="valor" type="number" min="0.01" max="9999999999.99" step="0.01" placeholder="0,00" required></label></div><label>Data<input name="data" type="date" required></label></div><button type="submit">Adicionar movimentação <span>→</span></button><p id="mensagem" role="status" aria-live="polite"></p></form>
+    <div class="history-head"><h3>Movimentações</h3><a href="/docs">Explorar API ↗</a></div><p class="filter-note">Totais consideram todas as movimentações. Filtros aplicam-se à lista.</p>
+    <div class="filters"><label>Tipo<select id="filtro-tipo"><option value="">Todos</option><option value="receita">Receitas</option><option value="despesa">Despesas</option></select></label><label>De<input id="filtro-inicio" type="date"></label><label>Até<input id="filtro-fim" type="date"></label></div><p id="filtro-mensagem" role="status" class="filter-note"></p><div id="historico" class="history"><p>Nenhuma movimentação registrada.</p></div>
+  </section>
+</main><script src="/static/app.js"></script></body></html>
