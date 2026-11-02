@@ -4,6 +4,8 @@ API de controle financeiro fictício para praticar Python, FastAPI, SQL e testes
 
 ## Demonstração no navegador
 
+[Abrir demonstração online](https://dhonorio73.github.io/dh73-finance-api/).
+
 A demonstração usa dados fictícios armazenados temporariamente na aba do navegador. Ela é uma versão estática para apresentação e não se conecta à API ou ao banco de dados. Não insira dados reais.
 
 ## Autoria e uso
