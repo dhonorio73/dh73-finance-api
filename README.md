@@ -2,6 +2,10 @@
 
 API de controle financeiro fictício para praticar Python, FastAPI, SQL e testes. Criada para compor o portfólio de Douglas Honório.
 
+## Demonstração no navegador
+
+A demonstração usa dados fictícios armazenados temporariamente na aba do navegador. Ela é uma versão estática para apresentação e não se conecta à API ou ao banco de dados. Não insira dados reais.
+
 ## Autoria e uso
 
 © 2026 Douglas Honório. Todos os direitos reservados sobre o conteúdo original do projeto. Para uso, reprodução ou distribuição, solicite autorização ao titular. As bibliotecas de terceiros permanecem sujeitas às respectivas licenças.
